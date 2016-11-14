@@ -273,6 +273,12 @@ class Params extends WC_API_Resource {
         'label' => __( 'Coupons', 'woocommerce' ),
         'href'   => admin_url('edit.php?post_type=shop_coupon')
       ),
+       array(
+        'id'     => 'reports',
+        /* translators: woocommerce */
+        'label' => __( 'Reports', 'woocommerce' ),
+        'href'   => admin_url('admin.php?page=wc-reports')
+      ),
       array(
         'id'     => 'support',
         /* translators: woocommerce */
